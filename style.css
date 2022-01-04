@@ -9,9 +9,9 @@ h1{
     color: orange;
     font-family: 'Pushster', cursive;;
 }
-.sec-one{
+section{
     display: flex;
-    justify-content: space-between;
+    margin-bottom: 150px;
 }
 .half-div{
     width: 50%;
@@ -31,4 +31,9 @@ h1{
 .sec-one{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
