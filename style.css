@@ -1,3 +1,34 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.org-color{
+    color: orange;
+    font-family: 'Pushster', cursive;;
+}
+.sec-one{
+    display: flex;
+    justify-content: space-between;
+}
+.half-div{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-div img{
+    width: 80%;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.sec-one{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
